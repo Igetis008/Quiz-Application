@@ -40,7 +40,7 @@ quiz-system/
 
 2. **Set Up Database**:
    - Open MySQL Workbench or another MySQL client
-   - Execute the SQL commands from `database_setup.md` to create the database and insert sample questions
+   - Execute the SQL commands from `database_setup.md` to create the database and insert sample questions(Can refer from the "Screenshot 2025-08-25 194300.png")
 
 3. **Configure Database Connection**:
    - Edit `database.py` to set your MySQL username and password
@@ -131,3 +131,4 @@ You can extend this system by:
 - Creating a web interface
 - Adding time limits to quizzes
 - Implementing a leaderboard system
+
