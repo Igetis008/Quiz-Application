@@ -9,7 +9,7 @@ def create_connection():
             host='localhost',
             database='quizdb',
             user='root',  # Change this to your MySQL username
-            password='Igetis11893'  # Change this to your MySQL password
+            password='password'  # Change this to your MySQL password
         )
         if connection.is_connected():
             print("Successfully connected to MySQL database")
@@ -112,4 +112,5 @@ def close_connection(connection):
     """Close the database connection"""
     if connection and connection.is_connected():
         connection.close()
+
         print("MySQL connection closed")
