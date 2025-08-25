@@ -131,7 +131,3 @@ You can extend this system by:
 - Creating a web interface
 - Adding time limits to quizzes
 - Implementing a leaderboard system
-
-## License
-
-This project is open source and available under the MIT License.
