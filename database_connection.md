@@ -24,7 +24,7 @@ def create_connection():
             host='localhost',
             database='quizdb',
             user='root',  # Change this to your MySQL username
-            password='Igetis11893'  # Change this to your MySQL password
+            password='password'  # Change this to your MySQL password
         )
         if connection.is_connected():
             print("Successfully connected to MySQL database")
@@ -111,4 +111,5 @@ def close_connection(connection):
 
 1. Make sure to update the `user` and `password` fields in the `create_connection()` function with your actual MySQL credentials.
 2. The default host is `localhost`, which should work if MySQL is running on your local machine.
+
 3. The database name is set to `quizdb` as per our earlier setup.
